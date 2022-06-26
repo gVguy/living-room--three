@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Ceiling Lamp",
+    "img": "/images/ceil_lamp.png",
+    "model": "/glb/ceil_lamp.glb",
+    "scale": [1.2, 1.2, 1.2],
+    "rotate": [0, 0, 0],
+    "position": [0, 10, -4],
+    "stickTo": ["ceiling"],
+    "noRecieveShadow": ["Head"]
+  },
+  {
+    "name": "Table Lamp",
+    "img": "/images/lamp.png",
+    "model": "/glb/lamp.glb",
+    "scale": [0.8, 0.8, 0.8],
+    "rotate": [0, 0, 0],
+    "position": [0, 0, -2],
+    "stickTo": ["ground", "Table_Circle004"],
+    "noCastShadow": ["Upper_circle", "Lower_circle", "Head"],
+    "isLight": true
+  },
+  {
+    "name": "Round Table",
+    "img": "/images/table.png",
+    "model": "/glb/table.glb",
+    "scale": [2, 2, 2],
+    "rotate": [0, 0, 0],
+    "position": [0, 0, -2],
+    "stickTo": ["ground"]
+  },
+  {
+    "name": "Modern Chair",
+    "img": "/images/chair-1.jpeg",
+    "model": "/glb/chair-1.glb",
+    "scale": [0.05, 0.05, 0.05],
+    "rotate": [0, -30, 0],
+    "position": [0, 0, -2],
+    "stickTo": ["ground", "Table_Circle004"],
+    "isSpinnable": true
+  },
+  {
+    "name": "Computer Chair",
+    "img": "/images/chair-2.jpeg",
+    "model": "/glb/chair-2.glb",
+    "scale": [0.14, 0.14, 0.14],
+    "rotate": [0, 140, 0],
+    "position": [0, 0, -2],
+    "stickTo": ["ground", "Table_Circle004"],
+    "isSpinnable": true
+  },
+  {
+    "name": "Picture Frame",
+    "img": "/images/frame.png",
+    "model": "/glb/frame.glb",
+    "scale": [15, 15, 15],
+    "rotate": [0, 0, 0],
+    "position": [0, 5, 0],
+    "stickTo": ["wall"]
+  },
+  {
+    "name": "Door",
+    "img": "/images/door.png",
+    "model": "/glb/door.glb",
+    "scale": [40, 40, 40],
+    "rotate": [0, 0, 0],
+    "position": [0, 4, -6],
+    "stickTo": ["wall"]
+  },
+  {
+    "name": "Plant",
+    "img": "/images/plant.jpeg",
+    "model": "/glb/plant.glb",
+    "scale": [0.1, 0.1, 0.1],
+    "rotate": [0, 100, 0],
+    "position": [0, 0, -2],
+    "stickTo": ["ground", "Table_Circle004"],
+    "isSpinnable": true
+  }
+]
