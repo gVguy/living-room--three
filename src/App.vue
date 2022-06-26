@@ -95,6 +95,7 @@ const showRotateMessage = ref(false)
   transform: translateX(-50%);
   padding: 5px;
   text-align: center;
+  z-index: 2;
 }
 </style>
 
